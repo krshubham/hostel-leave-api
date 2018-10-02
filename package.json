@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "@types/express": "^4.16.0",
+    "@types/puppeteer": "^1.6.4",
+    "@types/qs": "^6.5.1",
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "puppeteer": "^1.8.0",
+    "qs": "^6.5.2"
+  },
+  "name": "hostel-leave-cron",
+  "version": "1.0.0",
+  "description": "Automate your outing leave requests in FFCS",
+  "main": "dist/app.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc && node dist/server/app"
+  },
+  "keywords": [
+    "FFCS"
+  ],
+  "author": "Kumar Shubham",
+  "license": "MIT"
+}
